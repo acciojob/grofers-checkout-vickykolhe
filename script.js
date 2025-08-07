@@ -20,6 +20,7 @@ const getSum = () => {
 
 	tabletd.setAttribute('colspan', 2);
 	tabletd.textContent=total;
+	tabletd.setAttribute("id", "ans");
 
 	tabletr.appendChild(tabletd);
 	table.appendChild(tabletr);
